@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="50%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Shield/Rounded -->
+  <rect width="512" height="512" rx="110" fill="url(#bgGrad)" />
+  
+  <!-- Outer Crest Border -->
+  <path d="M 256 50 C 370 50 430 110 430 230 C 430 360 256 460 256 460 C 256 460 82 360 82 230 C 82 110 142 50 256 50 Z" 
+        fill="#0f172a" stroke="#38bdf8" stroke-width="12" />
+        
+  <!-- Inner Shield -->
+  <path d="M 256 75 C 350 75 405 125 405 225 C 405 335 256 425 256 425 C 256 425 107 335 107 225 C 107 125 162 75 256 75 Z" 
+        fill="#1e40af" stroke="#60a5fa" stroke-width="6" opacity="0.9" />
+
+  <!-- Eagle Wing Geometry -->
+  <path d="M 256 120 L 370 190 L 330 250 L 256 200 L 182 250 L 142 190 Z" fill="#ffffff" />
+  
+  <!-- Soccer Ball -->
+  <circle cx="256" cy="285" r="48" fill="#ffffff" stroke="#0f172a" stroke-width="6" />
+  <polygon points="256,260 278,276 270,301 242,301 234,276" fill="#0f172a" />
+
+  <!-- Stars -->
+  <polygon points="256,92 262,106 276,106 265,115 269,129 256,120 243,129 247,115 236,106 250,106" fill="url(#goldGrad)" />
+  <polygon points="215,102 220,113 232,113 222,120 226,131 215,124 204,131 208,120 198,113 210,113" fill="url(#goldGrad)" />
+  <polygon points="297,102 302,113 314,113 304,120 308,131 297,124 286,131 290,120 280,113 292,113" fill="url(#goldGrad)" />
+
+  <!-- Text OWJ -->
+  <text x="256" y="380" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="52" fill="#ffffff" text-anchor="middle" letter-spacing="4">OWJ FC</text>
+</svg>
